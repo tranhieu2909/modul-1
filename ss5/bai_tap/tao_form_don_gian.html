@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Học Viên</title>
+    <link rel ="icon" href="Logo.jfif"
+    type="image/x-icon"> <!--Phần Link này sẽ liên kết tới ảnh-->
+    <style>
+        .tieude {
+            color: blue;
+            font-weight: bolder;
+            background-color: lightgreen;
+            font-size: larger;
+        }
+        .text2 {
+            Color: blue;
+        }
+    </style>
+</head>
+<body>
+<form action="tao_from_don_gian.html" name="dangkyhocvien" method="get" style="background-color:lightgoldenrodyellow;margin-right:1100px">
+   <b> <p class="tieude">ĐĂNG KÝ HỌC VIÊN </p> </b>
+    <table>
+        <tr>
+            <td class="text2">Họ và Tên</td>
+            <td colspan="2"><input type="text" name="hovaten"/></td>
+        </tr>
+        <tr>
+            <td class="text2">Ngày Sinh</td>
+            <td colspan="2"><input type="date" name="Birthday"/></td>
+        </tr>
+        <tr>
+            <td class="text2">Giới Tính</td>
+            <td><input type="radio" name="Giới Tính" Value="Nam"/>Nam</td>
+            <td><input type="radio" name="Giới Tính" Value="Nữ"/>Nữ</td>
+        </tr>
+        <tr>
+            <td class="text2">Địa Chỉ</td>
+            <td colspan="2"><textarea></textarea></td>
+        </tr>
+            <tr>
+                <td class="text2">Lớp</td>
+                <td colspan="2"><select Name="Lớp">
+                    <option selected=selected Value="--chọn lớp">--Chọn Lớp--</option>
+                    <option Value="Online">Online</option>
+                    <option Value="Offline">Offline</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td class="text2">Email</td>
+                <td colspan="2"><input type="email"></td>
+            </tr>
+            <tr>
+                <td class="text2">Điện Thoại</td>
+                <td colspan="2"><input type="number"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" Value="Đăng Ký"></td>
+                <td><input type="reset" Value="Nhập Lại"></td>
+            </tr>
+        </table>
+    </form>
+    <p> <!--Thẻ <p> dùng để xác định một đoạn văn bản.-->
+        <a href="tao_bang_don_gian.html">Quay Lại</a> <!--Thẻ a coi như là 1 hyperlink sử dụng để liên kết-->
+</body>
+</html>
