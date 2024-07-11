@@ -1,0 +1,16 @@
+
+* {
+    font-family: Arial;
+}
+.tkb, tr.tkb>td, tr.tkb>th {
+    border: 1px solid;
+}
+.information {
+    border: unset;
+    color: blue;
+    vertical-align: top;
+}
+td, th{
+    border: 1px solid;
+}
+
